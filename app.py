@@ -48,7 +48,6 @@ except ValueError:
 
 YOUR_USERNAME = '@Hackerwibes9'
 UPDATE_CHANNEL = 'https://t.me/MECHAxUPDATES'
-YOUTUBE_CHANNEL = "
 CHANNEL_USERNAME = '@MECHAxUPDATES'
 
 BASE_DIR = Path(__file__).parent.absolute()
