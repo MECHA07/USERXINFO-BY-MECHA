@@ -25,11 +25,11 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-TOKEN =8897201403:AAFABD4PlpdgzKcdA8W-KPOVa5zqDDnZ7OQ
-OWNER_ID_STR =7377656986
+TOKEN = os.getenv("BOT_TOKEN")
+OWNER_ID_STR ="7377656986"
 ADMIN_ID_STR = os.getenv('ADMIN_ID')
-YOUR_USERNAME = @MECHA
-UPDATE_CHANNEL = https://t.me/+I6OZKuB45i9kNmM1
+YOUR_USERNAME = "@MECHA1"
+UPDATE_CHANNEL = ""
 
 if not TOKEN:
     logger.error("BOT_TOKEN not found in environment variables!")
@@ -47,9 +47,9 @@ except ValueError:
     raise
 
 YOUR_USERNAME = '@Hackerwibes9'
-UPDATE_CHANNEL = 'https://t.me/geniushackertools'
+UPDATE_CHANNEL = 'https://t.me/MECHAxUPDATES'
 YOUTUBE_CHANNEL = 'https://youtube.com/@geniushacker29'
-CHANNEL_USERNAME = '@' + UPDATE_CHANNEL.rstrip('/').split('/')[-1]
+CHANNEL_USERNAME = '@MECHAxUPDATES'
 
 BASE_DIR = Path(__file__).parent.absolute()
 UPLOAD_BOTS_DIR = BASE_DIR / 'upload_bots'
