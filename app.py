@@ -48,7 +48,7 @@ except ValueError:
 
 YOUR_USERNAME = '@Hackerwibes9'
 UPDATE_CHANNEL = 'https://t.me/MECHAxUPDATES'
-YOUTUBE_CHANNEL = 'https://youtube.com/@geniushacker29'
+YOUTUBE_CHANNEL = "
 CHANNEL_USERNAME = '@MECHAxUPDATES'
 
 BASE_DIR = Path(__file__).parent.absolute()
@@ -327,9 +327,8 @@ def build_welcome_text(user_id: int, full_name: str) -> str:
 
 ━━━━━━━━━━━━━━━━━━━━
 📢 <b>Updates:</b> {UPDATE_CHANNEL}
-🎥 <b>YouTube:</b> {YOUTUBE_CHANNEL}
 
-⚡ <b>Developed by</b> Aditya (Genius Hacker)
+⚡ <b>Developed by</b> MECHA
 🔒 <b>Version:</b> 2.0"""
 
 @dp.message(Command("start"))
